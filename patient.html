@@ -1,0 +1,19 @@
+<!DOCTYPE html><html>
+  <head>
+    <meta charset="utf-8" />
+    <title>rdv</title>
+    <link rel="stylesheet" type="text/css" href="messtyles1.css" />
+    <script src="controle.js"></script>
+  </head><body>
+      <form  method="post" action="ajout.php" onsubmit="return verif1()">
+          <fieldset>
+            <label>code</label><input type="Text" name="c" id="c" /></br>
+            <label>nom & prénom</label><input type="Text" name="np" id="np" /></br>
+            <label>Genre</label> <input type="radio" name="g" id="r2" value="M" /><label> m</label>
+            <input type="radio" name="g" id="r1" value="F" /><label>F</label></br>
+            <label>date de naissance<input type="date" name="dn" id="dn"></label></br>
+            <label>téléphone<input type="text"name="telpat" id="telpat"></label></br>
+            <label><input type="submit" value="ajouter"><input type="reset" value="annuler"></label></br>
+          </fieldset>
+      </form>
+  </body></html>
